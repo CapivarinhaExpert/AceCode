@@ -2,9 +2,9 @@
     <footer>
         <div class="main-footer">
             <div class="logos">
-                <a href="#"><img src="../assets/facebook.png" alt="Facebook"></a>
-                <a href="#"> <img src="../assets/instagram.png" alt="Instagram"></a>
-                <a href="#"><img src="../assets/twitter.png" alt="Twitter"></a>
+                <a target="_blank" href="https://www.facebook.com/"><img src="../assets/facebook.png" alt="Facebook"></a>
+                <a target="_blank" href="https://www.instagram.com/marco_antoniotk/"> <img src="../assets/instagram.png" alt="Instagram"></a>
+                <a target="_blank" href="https://twitter.com/Marcor715"><img src="../assets/twitter.png" alt="Twitter"></a>
             </div>
             <div class="info-footer">
                 <span>Info &bull; Suporte &bull; Marketing </span>

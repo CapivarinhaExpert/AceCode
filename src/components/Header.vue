@@ -9,8 +9,8 @@
         <div @click="fecharMenu" :class="{ closeBarra: menuActive }" class="barra-nav-close"></div>
         <div :class="{ active: menuActive }" class="barra-nav" id="barra-nav">
           <ul>
-            <li><router-link to="/home">Home</router-link></li>
-            <li><router-link to="/Contato">Contato</router-link></li>
+            <li><router-link @click="fecharMenulink" to="/home">Home</router-link></li>
+            <li><router-link @click="fecharMenulink" to="/Contato">Contato</router-link></li>
           </ul>
         </div>
       </nav>
@@ -28,6 +28,9 @@ export default {
     }
   },
   methods: {
+    fecharMenulink: function (){
+      this.fecharMenu()
+    },
     abrirMenu: function () {
       this.menuActive = true
     },
