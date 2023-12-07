@@ -83,9 +83,6 @@
 
 
 .main {
-  background-image: url(../assets/img1.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
   position: relative;
   width: 100%;
   height: auto;
