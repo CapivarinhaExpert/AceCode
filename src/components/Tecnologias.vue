@@ -32,10 +32,6 @@
     }
 
 
-    .tec {
-        margin-top: 80px;
-        margin-bottom: 110px;
-    }
 
     .title {
         display: inline-flex;

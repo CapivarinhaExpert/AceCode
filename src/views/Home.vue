@@ -28,7 +28,7 @@
       </div>
     </section>
 
-      <Tecnologias v-for="(tec, index) in this.tecs" :key="index" :msg="tec.msg" :title="tec.title">
+      <Tecnologias class="tec" v-for="(tec, index) in this.tecs" :key="index" :msg="tec.msg" :title="tec.title">
       
       </Tecnologias>
 
@@ -117,7 +117,8 @@
   margin-top: 96px;
   display: flex;
   justify-content: space-between;
-  align-items: top;
+
+  align-items: center;
   height: 150px;
   width: 100%;
   font-size: 20px;
@@ -154,6 +155,10 @@
     right: 2px;
 }
 
+.tec {
+  margin-top: 80px;
+  margin-bottom: 110px;
+}
 
 /*CAPACITACOES*/
 
@@ -165,10 +170,12 @@
 }
 
 .capacitacoes ul{
+  width: 70%;
     list-style: none;
     display: flex;
-    gap: 40px;
+    justify-content: space-around;
     font-weight: bold;
+    font-size: 20px;
 }
 
 
@@ -193,6 +200,9 @@
   .capacitacoes{
     margin-top: 0;
   }
+  .capacitacoes ul {
+    font-size: 16px;
+  }
   .main-home {
     padding-top: 20px;
   }
@@ -203,6 +213,7 @@
   
   .title-button {
     margin-top: 20px;
+    
   }
 
   .title-button p {
@@ -210,6 +221,28 @@
   }
 }
 
+@media (max-width: 570px ){
+
+  .title-button a {
+     width: 70px;
+     height: 35px;
+     font-size: 12px;
+  }
+
+  .capacitacoes li {
+    font-size: 12px;
+  }
+
+  .tec {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 12px;
+  }
+  .title-button {
+    margin:0 ;
+  }
+}
+  
 
 
 

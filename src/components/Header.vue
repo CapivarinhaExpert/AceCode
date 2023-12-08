@@ -68,7 +68,7 @@ ul {
 }
 
 ul li {
-  margin-right: 12px;
+  margin-right: 32px;
 }
 
 ul a {

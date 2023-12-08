@@ -16,14 +16,8 @@
           </p>
           <a href="#">Contato <img class="arrow-up-img" src="https://yhwconsulting.netlify.app/img/arrow-right-up-line.png" alt=""></a>
         </div>
-  
-  
-      
-        
       </section>
-  
-        
-
+      
       </div>
   
       <Footer/>
@@ -77,6 +71,7 @@
   
   .title{
       display: flex;
+      margin-bottom: 40px;
       justify-content: center;
   }
   .title h1 {
@@ -145,7 +140,7 @@
   }
   
   
-  @media(max-width: 1324px){
+  @media (max-width: 1324px){
     .main-home {
       width: 75%;
     }
@@ -183,10 +178,28 @@
     }
   }
   
-  
-  
-  
-  
+  @media (max-width: 570px ){
+
+.title-button a {
+   width: 70px;
+   height: 35px;
+   font-size: 12px;
+}
+
+.capacitacoes li {
+  font-size: 12px;
+}
+
+.tec {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 12px;
+}
+.title-button {
+  margin:0 ;
+}
+}
+
   </style>
   
   
