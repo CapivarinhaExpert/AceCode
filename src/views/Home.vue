@@ -14,7 +14,7 @@
           Somos uma empresa de tecnologia focada em desenvolvimento web, criando sites e aplicativos personalizados para nossos clientes.
           
         </p>
-        <a href="#">Contato <img class="arrow-up-img" src="https://yhwconsulting.netlify.app/img/arrow-right-up-line.png" alt=""></a>
+        <a href="https://www.instagram.com/marco_antoniotk/" target="_blank">Contato <img class="arrow-up-img" src="https://yhwconsulting.netlify.app/img/arrow-right-up-line.png" alt=""></a>
       </div>
 
 
